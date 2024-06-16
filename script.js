@@ -54,7 +54,7 @@ const updateExchangeRate = async () => {
 
   message.innerText = `${amount.value} ${
     fromCurrency.value
-  } = ${totalAmount.toFixed(2)} ${toCurrency.value}`;
+  } = ${totalAmount.toFixed(4)} ${toCurrency.value}`;
 };
 
 button.addEventListener("click", (event) => {
