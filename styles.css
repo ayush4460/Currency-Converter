@@ -42,6 +42,10 @@ form input {
   padding-left: 0.5rem;
 }
 
+form select{
+  background-color: white;
+}
+
 .currency__dropdown{
     display: flex;
     align-items: center;
